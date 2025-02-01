@@ -1,0 +1,31 @@
+.subjectSelector {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom: 2px solid black;
+}
+
+button {
+    height: 40px;
+    width: 110px;
+    border-radius: 5px;
+    border: 3px solid black;
+    margin: 10px;
+    font-weight: bold;
+    box-shadow: 0px 2px 5px black;
+}
+
+.physicsButton {
+    background-color: rgb(38, 114, 229);
+}
+
+.mathsButton {
+    background-color: red;
+}
+
+.chemistryButton {
+    background-color:  green;;
+}

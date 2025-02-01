@@ -1,0 +1,18 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: sandybrown;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    border-bottom: 2px solid black;
+}
+
+.navbarButton {
+    color:aliceblue;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 5px 10px black;
+}

@@ -1,0 +1,41 @@
+.header {
+    height: 80px;
+    display: flex;
+    padding: 10px;
+    color: black;
+    align-items:center;
+    background-color: sandybrown;
+    font-size: 60px;
+}
+
+.landingPageGrid {
+    display: flex;
+    grid-template-columns: repeat(2, auto);
+    width: 100vw;
+    height: 100%;
+}
+
+.landingPageForm {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.landingPageFeatures {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: sandybrown;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}

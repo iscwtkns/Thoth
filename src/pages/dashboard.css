@@ -1,0 +1,48 @@
+.dashboard {
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboardCard {
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.cardColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.profileCard {
+    height: 580px;
+    width: 300px;
+}
+
+.lessonCard {
+    height: 170px;
+    width: 1100px;
+}
+
+.awardCard {
+    height: 170px;
+    width: 1100px;
+}
+
+.resumeCard {
+    height: 200px;
+    width: 300px;
+}
+.friendCard {
+    height: 200px;
+    width: 400px;
+}
+.streakCard {
+    height: 200px;
+    width: 360px;
+}
