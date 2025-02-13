@@ -39,3 +39,7 @@ form {
     flex-direction: column;
     
 }
+
+.toggle-btn {
+    height: fit-content;
+}
